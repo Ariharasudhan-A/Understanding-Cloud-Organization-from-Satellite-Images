@@ -3,7 +3,7 @@
 
 ## Overview
 
-The objective of this project is to build a model to classify cloud organization patterns from satellite images, which is crucial for understanding and predicting climate changes.
+The objective of this project is to build a Deep learning model to classify cloud organization patterns from satellite images, which is crucial for understanding and predicting climate changes.
 
 The project involves:
 
