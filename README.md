@@ -43,11 +43,8 @@ To ensure high-quality input data for the model, the following preprocessing ste
    - All satellite images were resized to **(256x256)** for consistency.
    - Pixel values were normalized to **[0,1]** by dividing by 255 for better model convergence.
 
-- **Data Augmentation** (Applied to the training set to enhance generalization):
+- **Data Augmentation** (Applied to enhance generalization):
    - **Horizontal & Vertical Flipping**
-   - **Random Rotations**
-   - **Contrast Adjustments**
-   - **Gaussian Blur**
    - **Elastic Transformations** (to account for natural distortions in cloud formations)
 
 - **Conversion to Tensor**:
