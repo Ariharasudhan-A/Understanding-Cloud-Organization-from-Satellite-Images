@@ -28,8 +28,6 @@ The formations are categorized into the following labels:
 - **Gravel**
 - **Sugar**
 
----
-
 ## Data Preprocessing
 
 To ensure high-quality input data for the model, the following preprocessing steps were performed:
@@ -54,8 +52,6 @@ To ensure high-quality input data for the model, the following preprocessing ste
 
 5. **Conversion to Tensor**:
    - Images and masks were converted to PyTorch tensors for seamless model training.
-
----
 
 ## Model Overview
 
