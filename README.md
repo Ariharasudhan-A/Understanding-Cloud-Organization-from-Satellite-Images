@@ -67,9 +67,11 @@ This implementation uses a U-Net architecture for semantic segmentation with the
   - Optimizer: Adam
   - Loss Function: CrossEntropyLoss (for multi-class segmentation)
 
-## Results
+## Results & Visualization
 
-We Achieved an **Accuracy of 50.45% and a Dice score of 0.5917** in the segmentation process, highlighting the model's effectiveness.
+We Achieved an **Accuracy of 66.09% and a Dice score of 0.5946** in the segmentation process, highlighting the model's effectiveness.
+
+![image](https://github.com/user-attachments/assets/053b1936-6620-41f4-8060-da644783b91b)
 
 ## License
 
