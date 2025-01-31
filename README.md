@@ -11,7 +11,7 @@ The project involves:
   
 - **Data Preprocessing**: Splitted the Data into **Train(80%), Val(10%), Test(10%)** and Decoded the **EncodedPixels** into **Multiclass masks** making it ready for training.
   
-- **Modeling**: Implemented a **U-Net** model with a **ResNet-34** backbone for **multi-class semantic segmentation** of cloud formation patterns from satellite images.
+- **Modeling**: Implemented a **U-Net** architecture with a **ResNet-34** backbone for **multi-class semantic segmentation** of cloud formation patterns from satellite images.
   
 - **Evaluation and Visualization**: Model performance is evaluated using **Accuracy** and **Dice Coefficient**
 
