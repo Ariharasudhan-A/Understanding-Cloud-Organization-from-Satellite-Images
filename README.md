@@ -32,25 +32,25 @@ The formations are categorized into the following labels:
 
 To ensure high-quality input data for the model, the following preprocessing steps were performed:
 
-1. **Dataset Splitting**:
+- **Dataset Splitting**:
    - The dataset was divided into **Train (80%)**, **Validation (10%)**, and **Test (10%)** sets.
 
-2. **Decoding EncodedPixels**:
+- **Decoding EncodedPixels**:
    - The dataset provides **EncodedPixels** for segmentation masks, which were decoded into **multi-class binary masks** for each cloud type.
    - If a particular cloud type was not present in an image, its corresponding mask was left blank.
 
-3. **Resizing & Normalization**:
+- **Resizing & Normalization**:
    - All satellite images were resized to **(256x256)** for consistency.
    - Pixel values were normalized to **[0,1]** by dividing by 255 for better model convergence.
 
-4. **Data Augmentation** (Applied to the training set to enhance generalization):
+- **Data Augmentation** (Applied to the training set to enhance generalization):
    - **Horizontal & Vertical Flipping**
    - **Random Rotations**
    - **Contrast Adjustments**
    - **Gaussian Blur**
    - **Elastic Transformations** (to account for natural distortions in cloud formations)
 
-5. **Conversion to Tensor**:
+- **Conversion to Tensor**:
    - Images and masks were converted to PyTorch tensors for seamless model training.
 
 ## Model Overview
@@ -58,8 +58,11 @@ To ensure high-quality input data for the model, the following preprocessing ste
 This implementation uses a U-Net architecture for semantic segmentation with the following structure:
 
 - **Encoder**: A ResNet-34 backbone, pre-trained on ImageNet.
+
 - **Decoder**: A series of convolutional layers followed by upsampling to reconstruct the segmentation mask.
+
 - **Output Layer**: A 1x1 convolution to predict pixel-wise class labels (5 classes: 1 for background + 4 cloud types).
+
 - **Hyperparameters**:
   - Learning Rate: 1e-4 (Dynamic)
   - Optimizer: Adam
