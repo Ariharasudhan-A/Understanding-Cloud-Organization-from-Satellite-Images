@@ -1,5 +1,5 @@
 # Understanding-Cloud-Organization-from-Satellite-Images
-![Understanding Clouds from Satellite Images](https://github.com/user-attachments/assets/4ad8b761-9d95-4e0b-9768-488cccd68267)
+![Understanding Clouds from Satellite Images](https://github.com/user-attachments/assets/45729804-30ce-4e5a-a3d3-6706960d4069)
 
 ## Overview
 
