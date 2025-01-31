@@ -27,7 +27,6 @@ The formations are categorized into the following labels:
 - **Flower**
 - **Gravel**
 - **Sugar**
-![image](https://github.com/user-attachments/assets/9f475ca6-8051-4d43-a181-ea00ab68c5a6)
 
 ## Data Preprocessing
 
@@ -50,6 +49,8 @@ To ensure high-quality input data for the model, the following preprocessing ste
 
 - **Conversion to Tensor**:
    - Images and masks were converted to PyTorch tensors for seamless model training.
+
+![image](https://github.com/user-attachments/assets/9f475ca6-8051-4d43-a181-ea00ab68c5a6)
 
 ## Model Overview
 
