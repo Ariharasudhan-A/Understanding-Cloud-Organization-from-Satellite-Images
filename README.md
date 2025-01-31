@@ -7,7 +7,7 @@ The objective of this project is to build a Deep learning model to classify clou
 
 The project involves:
 
-- **Data Collection**: https://www.kaggle.com/competitions/understanding_cloud_organization/overview
+- **Dataset**: https://www.kaggle.com/competitions/understanding_cloud_organization/overview
   
 - **Data Preprocessing**: Dataset Splitting, Decoding EncodedPixels, Resizing & Normalization, Data Augmentation, Conversion to Tensor.
   
@@ -15,7 +15,7 @@ The project involves:
   
 - **Evaluation and Visualization**: Model performance is evaluated using **Accuracy** and **Dice Coefficient**.
 
-## Data
+## Dataset
 
 The images were downloaded from **NASA Worldview**. Three regions, spanning **21 degrees longitude** and **14 degrees latitude**, were chosen. The true-color images were taken from two polar-orbiting satellites, **TERRA and AQUA**, each of which passes a specific region once a day.
 
