@@ -27,6 +27,7 @@ The formations are categorized into the following labels:
 - **Flower**
 - **Gravel**
 - **Sugar**
+![image](https://github.com/user-attachments/assets/9f475ca6-8051-4d43-a181-ea00ab68c5a6)
 
 ## Data Preprocessing
 
