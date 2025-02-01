@@ -1,4 +1,4 @@
-# Understanding-Cloud-Organization-from-Satellite-Images
+# Decoding Cloud Patterns in Satellite Imagery with Deep Learning
 ![Understanding Clouds from Satellite Images](https://github.com/user-attachments/assets/45729804-30ce-4e5a-a3d3-6706960d4069)
 
 ## Overview
