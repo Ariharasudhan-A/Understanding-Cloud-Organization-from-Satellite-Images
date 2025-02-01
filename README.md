@@ -1,5 +1,5 @@
 # Decoding Cloud Patterns in Satellite Imagery with Deep Learning
-![Understanding Clouds from Satellite Images](https://github.com/user-attachments/assets/45729804-30ce-4e5a-a3d3-6706960d4069)
+![Decoding Cloud Patterns in Satellite Imagery with Deep Learning](https://github.com/user-attachments/assets/96c34004-5453-437f-853b-83c4d9d5396b)
 
 ## Overview
 
